@@ -7,7 +7,7 @@
 - API: follow instructions for obtaining the shape's API
 - Character: placeholder character
 - Lorebook: no active lorebook
-- System Prompt: use the AI preset from Shape's dashboard
+- System Prompt: blank, your shape uses the one from the shapes dashboard
 
 ## STEP BY STEP
 
@@ -29,8 +29,7 @@ STEP 2: CHARACTER SHELL
 
 STEP 3: SYSTEM PROMPT
 1. Go to the AI Response Configuration tab at the top
-2. Copy your shapes AI preset from the Shapes dashboard and paste it into the SYSTEM PROMPT section. Modify your variables from `{shape}` to `{{char}}` and `{user}` to `{{user}}`
-3. Disable the box that says "Streaming"
+2. Disable the box that says "Streaming"
 
 STEP 4: DISABLE LOREBOOKS
 1. Ensure there are no world lorebooks applied (your shape will use the knowledge from the shapes knowledge database)
